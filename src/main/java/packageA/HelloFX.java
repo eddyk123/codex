@@ -3,8 +3,8 @@ package packageA;
 import javafx.application.Application;
 import javafx.scene.Group;
 import javafx.scene.Scene;
-import javafx.stage.Stage;
 import javafx.scene.canvas.Canvas;
+import javafx.stage.Stage;
 
 
 public class HelloFX extends Application {
@@ -18,7 +18,7 @@ public class HelloFX extends Application {
 
         Canvas canvas = new Canvas(600, 400);
         root.getChildren().add(canvas);
-
+        System.out.println("hello");
         primaryStage.show();
     }
 
